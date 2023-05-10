@@ -3,8 +3,7 @@ import {createSlice} from '@reduxjs/toolkit'
 
 const initialState = {
     isAuth: false,
-    error: null,
-    isFetching: false,
+    error: null
 
 };
 
