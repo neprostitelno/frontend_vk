@@ -53,7 +53,7 @@ const Posts = () =>{
                     <div className={style.author}><NavLink to={`/user/${posts.authorid}`}>{posts.name} {posts.surname}</NavLink></div>
                     <div className={style.title}>{posts.title}</div>
                     <div>{posts.content}</div>
-                    <div>{posts.postdate}</div>
+                    <div>{posts.postdate.slice(0,10)}</div>
                 </div>
             </div>
             <div><img className={style.like} src={heart} alt=""/>

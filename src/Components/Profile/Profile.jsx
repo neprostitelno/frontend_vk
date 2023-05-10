@@ -226,7 +226,7 @@ const Profile = () => {
                                 <div className={style.author}>{post.name} {post.surname}</div>
                                 <div className={style.title}>{post.title}</div>
                                 <div>{post.content}</div>
-                                <div>{post.postdata}</div>
+                                <div>{post.postdate.slice(0,10)}</div>
                             </div>
                         </div>
                         <div><img className={style.like} src={heart} alt=""/>
