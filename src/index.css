@@ -1,13 +1,31 @@
+@font-face {
+  font-family: 'Aeroport';
+  src: url(./assets/Aeroport.ttf);
+}
+@font-face {
+  font-family: 'Aeroport-Bold';
+  src: url(./assets/Aeroport-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Aeroport-Medium';
+  src: url(./assets/Aeroport-Medium.ttf);
+}
+@font-face {
+  font-family: "Rajdhani";
+  src: url(./assets/Rajdhani-Regular.ttf);
+}
+
 body {
+  width: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Aeroport', 'Rajdhani', --base-font;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }

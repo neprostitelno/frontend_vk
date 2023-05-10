@@ -1,0 +1,35 @@
+.navbar {
+    grid-area: navbar;
+}
+
+.navbarContent {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 10px;
+    color: lightblue;
+    width: 200px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbarContent a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+
+}
+.button{
+    border: 1px solid;
+    border-radius: 10px;
+    color: lightblue;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.textButton{
+    color: black;
+    font-size: 20px;
+    padding: 3px;
+}

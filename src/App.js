@@ -1,25 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css"
+import {Route, Routes} from "react-router-dom";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+import Navbar from "./Components/Navbar/Navbar";
+import Registration from "./Components/Auth/registration";
+import Profile from "./Components/Profile/Profile";
+import AllUsers from "./Components/Profile/AllUsers";
+import SignIn from "./Components/Auth/SignIn";
+import Followers from "./Components/Friends/Followers";
+import Posts from "./Components/Posts/Posts";
+import Messages from "./Components/Messages/Messages";
+import {useCookies, withCookies} from "react-cookie";
+import MyProfile from "./Components/Profile/MyProfile";
+import Followings from "./Components/Friends/Followings";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    const [cookies, ,] = useCookies(['currentUser']);
+
+    return <div className='app-wrapper' id='app-wrapper'>
+        <main className="main">
+            <div className="app-wrapper__container">
+                <Header/>
+                {cookies.currentUser ? <>
+                    <Navbar/>
+                    <div className='app-wrapper-content'>
+                        <Routes>
+                            <Route exact path='/my'
+                                   element={<MyProfile/>}/>
+                            <Route exact path='/posts'
+                                   element={<Posts/>}/>
+                            <Route exact path='/user/:id/follower'
+                                   element={<Followers/>}/>
+                            <Route exact path='/user/:id/following'
+                                   element={<Followings/>}/>
+                            <Route exact path='/messages'
+                                   element={<Messages/>}/>
+                            <Route exact path='/all_users'
+                                   element={<AllUsers/>}/>
+                            <Route exact path='/user/:id'
+                                   element={<Profile/>}/>
+                        </Routes>
+                    </div>
+                </> : <>
+                    <Routes>
+                    <Route exact path="/sign_in"
+                           element={<SignIn/>}/>
+                    <Route exact path='/registration'
+                           element={<Registration/>}/>
+                </Routes>
+
+                </>}
+                <Footer/>
+            </div>
+        </main>
     </div>
-  );
 }
 
-export default App;
+export default withCookies(App);

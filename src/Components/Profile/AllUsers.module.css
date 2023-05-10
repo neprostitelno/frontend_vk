@@ -1,0 +1,45 @@
+.border{
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+.border a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.img{
+    border-radius: 50px;
+    width: 60px;
+}
+.users{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.name{
+    padding-left: 10px;
+}
+.button{
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    margin-top: 5px;
+    padding: 5px;
+    width: 100px;
+}
+.button:hover{
+    background: #B5BEEA;
+}
+.search{
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    width: 500px;
+}

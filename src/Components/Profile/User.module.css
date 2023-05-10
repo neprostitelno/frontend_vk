@@ -1,0 +1,123 @@
+.border{
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+}
+
+.border a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.img{
+    border-radius: 10px;
+    width: 200px;
+}
+
+.name{
+    padding-left: 10px;
+}
+
+.text{
+    padding-left: 30px;
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.content{
+    margin-left: 15px;
+}
+
+.author{
+    font-size: 16px;
+}
+.author a{
+    text-decoration: none;
+    color: black;
+}
+.author a:hover{
+    color: #B5BEEA;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.form{
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.input{
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    margin-top: 5px;
+    padding: 5px;
+    width: 500px;
+}
+.button{
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    margin-top: 5px;
+    padding: 5px;
+    width: 100px;
+}
+.button:hover{
+    background: #B5BEEA;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.follow{
+    display: flex;
+}
+.like{
+    width: 50px;
+    background: white;
+}
+.name a{
+    font-size: 16px;
+
+}
+.follow{
+    margin-bottom: 10px;
+}
+
+.post{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.photoInput{
+    font-family: 'Aeroport', 'Rajdhani', --base-font;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: white;
+}
+.photoInput:hover{
+    color: #B5BEEA;
+}
+
+.imgPost{
+    border-radius: 50px;
+    width: 60px;
+}
