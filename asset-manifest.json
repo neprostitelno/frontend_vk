@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend_vk/static/css/main.65fd47d6.css",
-    "main.js": "/frontend_vk/static/js/main.539f359e.js",
+    "main.css": "/frontend_vk/static/css/main.e14f46c6.css",
+    "main.js": "/frontend_vk/static/js/main.c2629f60.js",
     "static/js/787.c4e7f8f9.chunk.js": "/frontend_vk/static/js/787.c4e7f8f9.chunk.js",
     "static/media/Rajdhani-Regular.ttf": "/frontend_vk/static/media/Rajdhani-Regular.148606c1eb703f6e597a.ttf",
     "static/media/Aeroport-Medium.ttf": "/frontend_vk/static/media/Aeroport-Medium.9f52323cfa5e5ec055e8.ttf",
@@ -10,12 +10,12 @@
     "static/media/Spinner-1.4s-211px.svg": "/frontend_vk/static/media/Spinner-1.4s-211px.00ae5afded24b5a81cdb8f389a319234.svg",
     "static/media/avatar.svg": "/frontend_vk/static/media/avatar.aaa9e55bac5d7159b8475b329530709f.svg",
     "index.html": "/frontend_vk/index.html",
-    "main.65fd47d6.css.map": "/frontend_vk/static/css/main.65fd47d6.css.map",
-    "main.539f359e.js.map": "/frontend_vk/static/js/main.539f359e.js.map",
+    "main.e14f46c6.css.map": "/frontend_vk/static/css/main.e14f46c6.css.map",
+    "main.c2629f60.js.map": "/frontend_vk/static/js/main.c2629f60.js.map",
     "787.c4e7f8f9.chunk.js.map": "/frontend_vk/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65fd47d6.css",
-    "static/js/main.539f359e.js"
+    "static/css/main.e14f46c6.css",
+    "static/js/main.c2629f60.js"
   ]
 }
