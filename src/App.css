@@ -21,6 +21,7 @@
     grid-template-areas:
             'header  header'
             'navbar content'
+            'auth auth'
             'footer footer';
 
     align-items: start
@@ -28,6 +29,9 @@
 
 .app-wrapper-content {
     grid-area: content;
+}
+.app-wrapper-auth {
+    grid-area: auth;
 }
 
 @media (max-width: 1201px) {

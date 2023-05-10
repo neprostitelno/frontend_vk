@@ -44,13 +44,16 @@ function App() {
                         </Routes>
                     </div>
                 </> : <>
+                    <div className='app-wrapper-auth'>
                     <Routes>
+                        <Route exact path ='/'
+                        element={<SignIn/>}/>
                     <Route exact path="/sign_in"
                            element={<SignIn/>}/>
                     <Route exact path='/registration'
                            element={<Registration/>}/>
                 </Routes>
-
+                    </div>
                 </>}
                 <Footer/>
             </div>

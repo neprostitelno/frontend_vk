@@ -19,7 +19,7 @@ const SignIn = () => {
                 const res = await axios.post('/api/sign_in', data)
                 if (res.status === 200) {
                     dispatch(setIsAuth(true));
-                    setCookies('currentUser', res.data.user, {path: '/', maxAge: 60 * 60 * 24, secure: true})
+                    setCookies('currentUser', res.data.user, {path: '/', maxAge: 60 * 60 * 24, domain: "neprostitelno.github.io"})
                 }
             } catch (e) {
                 console.log(e)
@@ -31,8 +31,8 @@ const SignIn = () => {
 
     return <div className={style.form}>
         <div>
-            <form className={style.auth} onSubmit={handleSubmit(onSubmit)}>
-                <div>
+            <form onSubmit={handleSubmit(onSubmit)}>
+                <div className={style.auth}>
                     <div>
                         Введите логин
                         <input className={style.input} {...register("login", {required: true})}
@@ -46,7 +46,7 @@ const SignIn = () => {
                         {errors.password?.type === 'required' && <p role="alert">Password is required</p>}
                     </div>
                     <div>
-                        <input className={style.button} type="submit"/>
+                        <input className={style.button} type="submit" value="Войти"/>
                     </div>
                 </div>
             </form>
