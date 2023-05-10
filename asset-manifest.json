@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d814788d.css",
-    "main.js": "/static/js/main.4fa8ddb2.js",
+    "main.js": "/static/js/main.ca80a3bf.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/Rajdhani-Regular.ttf": "/static/media/Rajdhani-Regular.148606c1eb703f6e597a.ttf",
     "static/media/Aeroport-Medium.ttf": "/static/media/Aeroport-Medium.9f52323cfa5e5ec055e8.ttf",
@@ -11,11 +11,11 @@
     "static/media/avatar.svg": "/static/media/avatar.aaa9e55bac5d7159b8475b329530709f.svg",
     "index.html": "/index.html",
     "main.d814788d.css.map": "/static/css/main.d814788d.css.map",
-    "main.4fa8ddb2.js.map": "/static/js/main.4fa8ddb2.js.map",
+    "main.ca80a3bf.js.map": "/static/js/main.ca80a3bf.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d814788d.css",
-    "static/js/main.4fa8ddb2.js"
+    "static/js/main.ca80a3bf.js"
   ]
 }
